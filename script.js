@@ -93,10 +93,10 @@ function handleCommand(command) {
       window.location.href = "./index.html";
     }
     else if (target === "projects") {
-      window.location.href = "../projects/index.html";
+      window.location.href = "../webportfolio/projects/index.html";
     }
     else if (target === "about") {
-      window.location.href = "../about/index.html";
+      window.location.href = "../webportfolio/about/index.html";
     }
     else if (target === "contact") {
       window.location.href = "./contact/";

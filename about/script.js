@@ -98,7 +98,7 @@ function handleCommand(command) {
     const target = command.split(" ")[1];
 
     if (target === "home") {
-      window.location.href = "../homepage/index.html";
+      window.location.href = "../index.html";
     }
     else if (target === "projects") {
       window.location.href = "../projects/index.html";

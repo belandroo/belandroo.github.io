@@ -6,7 +6,7 @@
 }
 
 body {
-	background: #0f172a url("../homepage/backgroundimage/blockk.png") no-repeat center fixed;
+	background: #0f172a url("../backgroundimage/blockk.png") no-repeat center fixed;
 	background-size: cover;
 	color: #e2e8f0;
 	min-height: 100vh;
