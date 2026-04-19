@@ -82,7 +82,7 @@ function handleCommand(command) {
   }
 
   else if (command === "pwd") {
-    print("about")
+    print("projects")
   }
 
   else if (command.startsWith("cat ")) {
