@@ -107,7 +107,7 @@ function handleCommand(command) {
       window.location.href = "./index.html";
     }
     else if (target === "contact") {
-      window.location.href = "./contact/";
+      window.location.href = "../contact/index.html";
     }
     else {
       print(`cd: no such directory: ${target}`);

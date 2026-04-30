@@ -7,18 +7,17 @@ const fileSystem = {
   about: {},
   contact: {},
   
-  "project1.txt": `
+  "readme.md": `
+- This is a clever simulated terminal that allows the user to navigate between pages on my website.
+- There are different files to check out within each page.
+  `,
+
+  "skills.txt": `
 Linux
 Bash
 Networking
 Virtualization
   `,
-
- /* "projects.txt": `
-1. Home Lab Server
-2. Portfolio Website
-3. Network Simulation Lab
-  ` */
 }
 
 let commandHistory = [];
@@ -82,7 +81,7 @@ function handleCommand(command) {
   }
 
   else if (command === "pwd") {
-    print("projects")
+    print("about")
   }
 
   else if (command.startsWith("cat ")) {
@@ -102,13 +101,13 @@ function handleCommand(command) {
       window.location.href = "../index.html";
     }
     else if (target === "projects") {
-      window.location.href = "./index.html";
+      window.location.href = "../projects/index.html";
     }
     else if (target === "about") {
       window.location.href = "../about/index.html";
     }
     else if (target === "contact") {
-      window.location.href = "../contact/index.html";
+      window.location.href = "./index.html";
     }
     else {
       print(`cd: no such directory: ${target}`);
