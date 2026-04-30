@@ -12,7 +12,7 @@ directimpala@proton.me
   `,
 
   "number.txt": `
-(352) 275 2680
+(352) 275-2680
   `,
 }
 
