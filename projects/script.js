@@ -8,17 +8,8 @@ const fileSystem = {
   contact: {},
   
   "project1.txt": `
-Linux
-Bash
-Networking
-Virtualization
+- Interactive JS simulated command line
   `,
-
- /* "projects.txt": `
-1. Home Lab Server
-2. Portfolio Website
-3. Network Simulation Lab
-  ` */
 }
 
 let commandHistory = [];
@@ -68,7 +59,7 @@ function handleCommand(command) {
 
   if (command === "help") {
     print("Available commands:");
-    print("help, ls, pwd, cat, cd, clear, whoami");
+    print("help, ls, pwd, cat 'filename', cd, clear, whoami");
   }
 
   else if (command === "whoami") {

@@ -59,7 +59,7 @@ function handleCommand(command) {
 
   if (command === "help") {
     print("Available commands:");
-    print("help, ls, pwd, cat, cd, clear, whoami");
+    print("help, ls, pwd, cat 'filename', cd, clear, whoami");
   }
 
   else if (command === "whoami") {

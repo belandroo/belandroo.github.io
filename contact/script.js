@@ -7,16 +7,12 @@ const fileSystem = {
   about: {},
   contact: {},
   
-  "readme.md": `
-- This is a clever simulated terminal that allows the user to navigate between pages on my website.
-- There are different files to check out within each page.
+  "email.txt": `
+directimpala@proton.me
   `,
 
-  "skills.txt": `
-Linux
-Bash
-Networking
-Virtualization
+  "number.txt": `
+(352) 275 2680
   `,
 }
 
@@ -67,7 +63,7 @@ function handleCommand(command) {
 
   if (command === "help") {
     print("Available commands:");
-    print("help, ls, pwd, cat, cd, clear, whoami");
+    print("help, ls, pwd, cat 'filename', cd, clear, whoami");
   }
 
   else if (command === "whoami") {
@@ -81,7 +77,7 @@ function handleCommand(command) {
   }
 
   else if (command === "pwd") {
-    print("about")
+    print("contact")
   }
 
   else if (command.startsWith("cat ")) {

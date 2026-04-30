@@ -13,10 +13,15 @@ const fileSystem = {
   `,
 
   "skills.txt": `
-Linux
-Bash
-Networking
-Virtualization
+Operating systems: Linux (Debian, OpenSUSE), Windows, macOS
+Penetration Testing: Experience using virtual machines to conduct ethical hacking scenarios against Windows and
+Linux hosts, using Metasploit, Gobuster, Burpsuite, WpScan, and Nmap along with other tools in the CLI
+Networking: TCP/IP, firewall configuration, troubleshooting
+Web: Apache2 configuration and webserver security
+OSINT: Experience using public records and tools like Shodan to enumerate targets during pentest
+Tor: .onion routing, anonymity concepts, and OPSEC
+Programming: Python, HTML/CSS, SQL, basic JavaScript
+Other: Fluent in both English and Spanish
   `,
 }
 
@@ -67,7 +72,7 @@ function handleCommand(command) {
 
   if (command === "help") {
     print("Available commands:");
-    print("help, ls, pwd, cat, cd, clear, whoami");
+    print("help, ls, pwd, cat 'filename', cd, clear, whoami");
   }
 
   else if (command === "whoami") {
